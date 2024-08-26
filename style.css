@@ -23,4 +23,7 @@ body {
 #main-div {
   max-width : 10000px;
   height : auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
