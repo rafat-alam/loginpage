@@ -1,3 +1,7 @@
 .card-body {
   padding: 0;
 }
+
+#inline-block {
+  display: inline-block;
+}
