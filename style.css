@@ -20,9 +20,16 @@ body {
   align-content: center;
 }
 
+#center-div {
+  display: flex;
+}
+
+#inline {
+  flex:1
+}
+
 #main-div {
-  width : 10000px;
-  background-color: red;
+  max-width : 10000px;
   height : auto;
   display: flex;
   align-items: center;
