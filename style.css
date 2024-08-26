@@ -19,3 +19,9 @@
 body {
   align-content: center;
 }
+
+#main-div {
+  background-color: red;
+  max-width : 10000px;
+  height : 100px;
+}
