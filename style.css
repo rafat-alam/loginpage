@@ -23,5 +23,5 @@ body {
 #main-div {
   background-color: red;
   max-width : 10000px;
-  height : 100px;
+  max-height : 1000px;
 }
