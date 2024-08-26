@@ -6,6 +6,10 @@
   background-color: white;
   height : 2rem;
   width : 2rem;;
-  border : 1px solid grey;
+  border : 1px solid black;
   border-radius: 0.4rem
+}
+
+#social-media-buttons {
+  opacity: 50%;
 }
