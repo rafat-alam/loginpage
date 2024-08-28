@@ -45,7 +45,7 @@ div {
 
 body {
   align-content: center;
-  background-color: #48cae4;
+  background: linear-gradient(45deg, rgb(132, 0, 255), rgb(11, 175, 120))
 }
 
 .padding-hf {
