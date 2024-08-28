@@ -93,7 +93,7 @@ body {
 }
 
 
-@media (min-width: 1100px) {
+@media (min-width: 1101px) {
   #center-div {
     display: flex;
     width: 56rem;
