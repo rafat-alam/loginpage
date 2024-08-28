@@ -1,3 +1,7 @@
+* {
+  border: 0;
+}
+
 .card-body {
   padding: 0;
 }
@@ -16,17 +20,23 @@
   opacity: 60%;
 }
 
+.text-center {
+  text-align: center;
+}
+
 body {
   align-content: center;
   background-color: #48cae4;
 }
 
 #card-1-color {
+  border-radius: 0.3rem;
   background-color: #023e8a;
   color : white;
 }
 
 #card-2-color {
+  border-radius: 0.3rem;
   background-color: #caf0f8;
 }
 
