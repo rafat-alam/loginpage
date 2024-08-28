@@ -20,6 +20,23 @@ div {
   border-radius : 0.4rem;
 }
 
+.padding-uyeap {
+  padding-top: 1rem;
+}
+.padding-signin {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.padding-email {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.padding-signin-main {
+  padding-top: 1rem;
+}
+
 #social-media-buttons {
   opacity: 60%;
 }
@@ -29,6 +46,15 @@ body {
   background-color: #48cae4;
 }
 
+.padding-hf {
+  padding-top : 2rem;
+  padding-bottom: 0.25rem;
+}
+.padding-hf-desc {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+}
 
 #card-2-color {
   border-radius: 0.3rem;
