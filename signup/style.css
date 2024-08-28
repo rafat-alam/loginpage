@@ -6,6 +6,35 @@
   padding: 0;
 }
 
+.padding-wb {
+  padding-top: 2rem;
+  padding-bottom: 0.25rem;
+}
+
+.padding-wb-desc {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.padding-ca {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.padding-uyefr {
+  padding-top: 1rem;
+}
+
+.padding-signup-main {
+  padding-top: 1rem;
+}
+
+.padding-name {
+  padding-right: 3rem;
+  padding-left: 2rem;
+}
+
 #social-media-button {
   background-color: white;
   height : 2rem;
