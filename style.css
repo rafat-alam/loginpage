@@ -67,21 +67,11 @@ body {
   padding-bottom: 1rem;
 }
 
-#card-2-color {
-  border-radius: 0.3rem;
-  background-color: #023e8a;
-  color : white;
-}
-
 
 .text-center {
   text-align: center;
 }
 
-#card-1-color {
-  border-radius: 0.3rem;
-  background-color: #caf0f8;
-}
 
 
 #inline {
@@ -114,11 +104,72 @@ body {
   .card2width {
     width: 33%;
   }
+  
+  .merging-box-1 {
+    border-right: 0px;
+    border-radius: 1rem;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+
+  .merging-box-2 {
+    border-left: 0px;
+    border-radius: 1rem;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  
+  #card-2-color {
+    border-radius: 1rem;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #023e8a;
+    color : white;
+  }
+  
+  #card-1-color {
+    border-radius: 1rem;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #caf0f8;
+  }
 }
 
 @media (max-width: 1000px) {
   #center-div {
     width: 70%;
+  }
+
+  
+  .merging-box-1 {
+    border-bottom: 0px;
+    border-radius: 1rem;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+
+  .merging-box-2 {
+    border-top: 0px;
+    border-radius: 1rem;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  
+  #card-2-color {
+    border-radius: 1rem;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: #023e8a;
+    color : white;
+  }
+  
+  #card-1-color {
+    border-radius: 1rem;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #caf0f8;
   }
 }
 

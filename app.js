@@ -1,5 +1,6 @@
 let eyeButtonPass = document.getElementsByClassName("eye-button-pass");
-let passInputBox = document.getElementsByClassName("pass-input-box")
+let passInputBox = document.getElementsByClassName("pass-input-box");
+
 let a = 0;
 function changeType() {
   if(a%2==0) {
@@ -11,3 +12,9 @@ function changeType() {
   }
 }
 eyeButtonPass[0].addEventListener("click", changeType);
+
+window.setInterval( function() {
+  let bodyWidth = width = window.innerWidth;
+  if(bodyWidth<860) {
+  }
+},10)
