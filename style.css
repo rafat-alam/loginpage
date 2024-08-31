@@ -43,6 +43,15 @@ div {
   opacity: 60%;
 }
 
+.pass-input-box {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.eye-button-pass {
+  background-color: white;
+}
+
 body {
   align-content: center;
   background: linear-gradient(45deg, rgb(132, 0, 255), rgb(11, 175, 120))
@@ -63,6 +72,7 @@ body {
   background-color: #023e8a;
   color : white;
 }
+
 
 .text-center {
   text-align: center;
@@ -110,4 +120,8 @@ body {
   #center-div {
     width: 70%;
   }
+}
+
+.div-pass-input {
+  width: 100%
 }

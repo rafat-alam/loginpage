@@ -92,6 +92,11 @@ body {
 }
 
 
+.div-pass-input {
+  width: 100%
+}
+
+
 @media (min-width: 1001px) {
   #center-div {
     display: flex;
@@ -115,4 +120,14 @@ body {
   .display1 {
     display : none;
   }
+}
+
+
+.pass-input-box {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.eye-button-pass {
+  background-color: white;
 }
