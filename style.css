@@ -174,3 +174,7 @@ body {
 .div-pass-input {
   width: 100%
 }
+
+.no-wrap-label {
+  white-space: nowrap;
+}

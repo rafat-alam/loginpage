@@ -188,3 +188,7 @@ body {
     background-color: #caf0f8;
   }
 }
+
+.no-wrap-label {
+  white-space: nowrap;
+}
