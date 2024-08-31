@@ -12,9 +12,3 @@ function changeType() {
   }
 }
 eyeButtonPass[0].addEventListener("click", changeType);
-
-window.setInterval( function() {
-  let bodyWidth = width = window.innerWidth;
-  if(bodyWidth<860) {
-  }
-},10)
